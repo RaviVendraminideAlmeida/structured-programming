@@ -14,7 +14,7 @@ int main(int argc, char** argv){
 	cout << "Type in the value of the 3rd number: ";
 	cin >> thirdNumber;
 	
-	sum = (firstNumber + secondNumber + thirdNumber);
+	sum = firstNumber + secondNumber + thirdNumber;
 
 	cout << "\n The addition of the given numbers is: " << sum << endl;
 
