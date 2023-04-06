@@ -7,8 +7,7 @@ int main(){
 	setlocale(LC_ALL, "Portuguese");
 
 	std::string name;
-	int km;
-	float averageSpeed, minutes;
+	float averageSpeed, minutes, km;
 	
 	std::cout << "Informe seu nome: ";
 	std::cin >> name;
